@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0037)http://w3schools.com/css/css_text.asp -->
+<HTML lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml"><HEAD><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<TITLE>CSS Text</TITLE>
+ 
+<LINK rel="shortcut icon" href="http://w3schools.com/favicon.ico" type="image/x-icon">
+
+<META name="Keywords" content="xml,tutorial,html,dhtml,css,xsl,xhtml,javascript,asp,ado,vbscript,dom,sql,colors,soap,php,authoring,programming,training,learning,beginner&#39;s guide,primer,lessons,school,howto,reference,examples,samples,source code,tags,demos,tips,links,FAQ,tag list,forms,frames,color table,w3c,cascading style sheets,active server pages,dynamic html,internet,database,development,Web building,Webmaster,html guide">
+
+<META name="Description" content="Free HTML XHTML CSS JavaScript DHTML XML DOM XSL XSLT RSS AJAX ASP ADO PHP SQL tutorials, references, examples for web building.">
+
+<META http-equiv="pragma" content="no-cache">
+<META http-equiv="cache-control" content="no-cache">
+<META http-equiv="expires" content="-1">
+
+<LINK rel="stylesheet" type="text/css" href="./CSS Text_files/stdtheme.css">
+
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT><SCRIPT src="./CSS Text_files/ga.js" type="text/javascript"></SCRIPT>
+<SCRIPT type="text/javascript">
+function searchfield_focus(obj)
+{
+obj.style.color=""
+obj.style.fontStyle=""
+if (obj.value=="Search W3Schools")
+	{
+	obj.value=""
+	}
+}
+
+var pageTracker = _gat._getTracker("UA-3855518-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+<!--[if gt IE 7]>
+<style>
+body
+{
+overflow-y:scroll;
+}
+</style>
+<![endif]-->
+
+
+</HEAD><BODY>
+
+<CENTER>
+<TABLE style="width:902px;margin-top:0px;margin-bottom:0px;background-color:#ffffff;" border="0" cellpadding="0" cellspacing="0">
+<TBODY><TR><TD align="center"><A name="top"></A>
+
+<TABLE width="890" border="0" cellpadding="0" cellspacing="0" style="margin-top:1px;background-color:#606060;border-bottom:1px solid black">
+<TBODY><TR style="height:47px">
+<TD width="15">&nbsp;</TD>
+<TD width="500" valign="middle" style="text-align:left">
+<A href="http://www.w3schools.com/">
+<IMG style="margin-top:6px" border="0" src="./CSS Text_files/h_logo.gif" width="203" height="20" alt="w3schools" title="w3schools"></A>
+</TD>
+<TD align="right" valign="bottom">
+<FORM style="font-size:10px;margin-bottom:10px;" method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<TABLE cellpadding="0" cellspacing="0" border="0"><TBODY><TR>
+<TD><INPUT type="hidden" name="sitesearch" value="www.w3schools.com"></TD>
+<TD><INPUT onfocus="searchfield_focus(this)" style="width:128px;color:#808080;font-style:italic;" alt="search" type="text" name="as_q" size="20" value="Search W3Schools"></TD>
+<TD><INPUT type="submit" value="Search" title="Search W3Schools"></TD>
+</TR></TBODY></TABLE>
+</FORM>
+</TD>
+<TD>&nbsp;&nbsp;</TD>
+</TR>
+</TBODY></TABLE>
+
+<TABLE width="890" border="0" cellpadding="0" cellspacing="0" style="margin:0px;margin-bottom:2px;padding:0px;background-color:#606060">
+<TBODY><TR style="height:20px">
+<TD class="blacknav" width="50" style="border-left:none"><A class="m_item" href="http://w3schools.com/default.asp" target="_top">HOME</A></TD>
+<TD class="blacknav" width="50"><A class="m_item" href="http://w3schools.com/html/default.asp" target="_top">HTML</A></TD>
+<TD class="blacknav" width="40"><A class="m_item" href="http://w3schools.com/css/default.asp" target="_top">CSS</A></TD>
+<TD class="blacknav" width="40"><A class="m_item" href="http://w3schools.com/xml/default.asp" target="_top">XML</A></TD>
+<TD class="blacknav" width="90"><A class="m_item" href="http://w3schools.com/js/default.asp" target="_top">JAVASCRIPT</A></TD>
+<TD class="blacknav" width="40"><A class="m_item" href="http://w3schools.com/asp/default.asp" target="_top">ASP</A></TD>
+<TD class="blacknav" width="40"><A class="m_item" href="http://w3schools.com/php/default.asp" target="_top">PHP</A></TD>
+<TD class="blacknav" width="40"><A class="m_item" href="http://w3schools.com/sql/default.asp" target="_top">SQL</A></TD>
+<TD class="blacknav" width="60"><A class="m_item" href="http://w3schools.com/sitemap/sitemap_tutorials.asp" target="_top">MORE...</A></TD>
+<TD class="blacknav">&nbsp;</TD>
+<TD class="blacknav" width="80"><A class="m_item" href="http://w3schools.com/sitemap/sitemap_references.asp" target="_top">References</A></TD>
+<TD class="blacknav" width="70"><A class="m_item" href="http://w3schools.com/sitemap/sitemap_examples.asp" target="_top">Examples</A></TD>
+<TD class="blacknav" width="50"><A class="m_item" href="http://w3schools.com/forum/default.asp" target="_blank">Forum</A></TD>
+<TD class="blacknav" width="50" style="border-right:none"><A class="m_item" href="http://w3schools.com/about/default.asp" target="_top">About</A></TD>
+</TR>
+</TBODY></TABLE>
+
+<DIV style="width:890px;height:94px;position:relative;margin-left:auto;margin-right:auto;margin:0px;padding:0px;overflow:hidden">
+
+<DIV class="toprect_img">
+<B>BEST WEB HOSTING</B>
+<A target="_blank" rel="nofollow" href="http://stats.justhost.com/track?cb9f3a2d1dcf0bf26abe2da7b079bcbdf"><IMG style="position:absolute;left:0px;bottom:0px;" src="./CSS Text_files/justhost_155x75.gif" alt="JustHosts" border="0"></A><BR>
+
+</DIV><DIV style="width:728px;height:90px;position:absolute;right:0px;top:0px;">
+<IFRAME id="leaderframe" style="background-color:#ffffff;height:90px;width:728px" src="./CSS Text_files/leaderframe.htm" height="90" width="728" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</IFRAME>
+</DIV></DIV>
+
+<TABLE width="890" border="0" cellpadding="0" cellspacing="0" style="padding:0">
+<TBODY><TR><TD id="leftcolumn" width="161" align="left" valign="top">
+<DIV style="margin-left:1px;margin-top:5px"><H2 class="left"><SPAN class="left_h2">CSS</SPAN> Basic</H2>
+<A target="_top" href="http://w3schools.com/css/default.asp">CSS HOME</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_intro.asp">CSS Introduction</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_syntax.asp">CSS Syntax</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_id_class.asp">CSS Id &amp; Class</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_howto.asp">CSS How To</A><BR>
+<BR>
+<H2 class="left"><SPAN class="left_h2">CSS</SPAN> Styling</H2>
+<A target="_top" href="http://w3schools.com/css/css_background.asp">Styling Backgrounds</A><BR>
+<A target="_top" href="./CSS Text_files/CSS Text.htm" style="font-weight:bold;">Styling Text</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_font.asp">Styling Fonts</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_link.asp">Styling Links</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_list.asp">Styling Lists</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_table.asp">Styling Tables</A><BR>
+<BR>
+<H2 class="left"><SPAN class="left_h2">CSS</SPAN> Box Model</H2>
+<A target="_top" href="http://w3schools.com/css/css_boxmodel.asp">CSS Box Model</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_border.asp">CSS Border</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_outline.asp">CSS Outline</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_margin.asp">CSS Margin</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_padding.asp">CSS Padding</A><BR>
+<BR>
+<H2 class="left"><SPAN class="left_h2">CSS</SPAN> Advanced</H2>
+<A target="_top" href="http://w3schools.com/css/css_grouping_nesting.asp">CSS Grouping/Nesting</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_dimension.asp">CSS Dimension</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_display_visibility.asp">CSS Display</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_positioning.asp">CSS Positioning</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_float.asp">CSS Floating</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_align.asp">CSS Align</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_pseudo_classes.asp">CSS Pseudo-class</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_pseudo_elements.asp">CSS Pseudo-element</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_navbar.asp">CSS Navigation Bar</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_image_gallery.asp">CSS Image Gallery</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_image_transparency.asp">CSS Image Opacity</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_image_sprites.asp">CSS Image Sprites</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_mediatypes.asp">CSS Media Types</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_attribute_selectors.asp">CSS Attribute Selectors</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_dont.asp">CSS Don't</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_summary.asp">CSS Summary</A><BR>
+<BR>
+<H2 class="left"><SPAN class="left_h2">CSS</SPAN> Examples</H2>
+<A target="_top" href="http://w3schools.com/css/css_examples.asp">CSS Examples</A><BR>
+<BR>
+<H2 class="left"><SPAN class="left_h2">CSS</SPAN> Quiz</H2>
+<A target="_top" href="http://w3schools.com/css/css_quiz.asp">CSS Quiz</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_exam.asp">CSS Exam</A><BR>
+<BR>
+<H2 class="left"><SPAN class="left_h2">CSS</SPAN> References</H2>
+<A target="_top" href="http://w3schools.com/css/css_reference.asp">CSS Reference</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_reference_atoz.asp">CSS Reference A to Z</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_ref_aural.asp">CSS Reference Aural</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_websafe_fonts.asp">CSS Web Safe Fonts</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_units.asp">CSS Units</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_colors.asp">CSS Colors</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_colorsfull.asp">CSS Colorvalues</A><BR>
+<A target="_top" href="http://w3schools.com/css/css_colornames.asp">CSS Colornames</A><BR></DIV>
+</TD>
+<TD align="left" valign="top">
+<TABLE style="background-color:#ffffff;color:#000000;padding-bottom:8px;padding-right:5px" width="574" border="0" cellpadding="0" cellspacing="0">
+<TBODY><TR>
+<TD style="padding-top:4px">
+
+<H1>CSS <SPAN class="color_h1">Text</SPAN></H1>
+<TABLE class="chapter" border="0" width="100%" cellspacing="0" cellpadding="0"><TBODY><TR>
+<TD class="prev"><A class="chapter" href="http://w3schools.com/css/css_background.asp">« Previous</A></TD>
+<TD class="next"><A class="chapter" href="http://w3schools.com/css/css_font.asp">Next Chapter »</A></TD>
+</TR></TBODY></TABLE>
+<BR>
+
+<DIV style="width:96.5%;border:1px solid gray;padding:8px;">
+<H1 style="text-align:center;text-transform:uppercase;color:#A7C942;">text formatting</H1>
+<P style="text-indent:50px;text-align:justify;letter-spacing:3px;">This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from the
+<A style="text-decoration:none" target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text">"Try it yourself"</A> link.</P>
+</DIV>
+
+<H2>Text Color</H2>
+<P>The color property is used to set the color of the text. The color can be 
+specified by:</P>
+<UL>
+	<LI>name - a color name, like "red"</LI>
+	<LI>RGB - an RGB value, like "rgb(255,0,0)"</LI>
+	<LI>Hex - a hex value, like "#ff0000"</LI>
+</UL>
+
+<P>The default color for a page is defined in the body selector.</P>
+
+<TABLE class="example" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+<H2 class="example">Example</H2>
+<TABLE class="example_code" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+body {color:blue;}<BR>
+h1 {color:#00ff00;}<BR>
+h2 {color:rgb(255,0,0);}</TD></TR></TBODY></TABLE>
+<BR><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_color" class="tryitbtn">Try it yourself »</A>
+</TD></TR></TBODY></TABLE>
+<P><IMG border="0" src="./CSS Text_files/lamp.gif" alt="Remark"> For W3C compliant CSS: 
+If you define the color property, you must also define the background-color 
+property. </P>
+<HR>
+
+<H2>Text Alignment</H2>
+<P>The text-align property is used to set the horizontal alignment of a text.</P>
+<P>Text can be 
+centered, or aligned to the left or right, or justified.</P>
+<P>When text-align is set to "justify", each line is stretched so that every line has equal width, and the left and right 
+margins are straight (like in magazines and 
+newspapers).</P>
+
+<TABLE class="example" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+<H2 class="example">Example</H2>
+<TABLE class="example_code" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+h1 {text-align:center;}<BR>
+p.date {text-align:right;}<BR>
+p.main {text-align:justify;}
+</TD></TR></TBODY></TABLE>
+<BR><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text-align_all" class="tryitbtn">Try it yourself »</A>
+</TD></TR></TBODY></TABLE>
+<BR>
+<HR>
+
+<H2>Text Decoration</H2>
+<P>The text-decoration property is used to set or remove decorations from text.</P>
+<P>The text-decoration property is mostly used to remove underlines from links for 
+design purposes:</P>
+
+<TABLE class="example" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+<H2 class="example">Example</H2>
+<TABLE class="example_code" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+a {text-decoration:none;}
+</TD></TR></TBODY></TABLE>
+<BR><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text-decoration_link" class="tryitbtn">Try it yourself »</A>
+</TD></TR></TBODY></TABLE>
+<P>It can also be used to decorate text:</P>
+
+<TABLE class="example" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+<H2 class="example">Example</H2>
+<TABLE class="example_code" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+h1 {text-decoration:overline;}<BR>
+h2 {text-decoration:line-through;}<BR>
+h3 {text-decoration:underline;}<BR>
+h4 {text-decoration:blink;}</TD></TR></TBODY></TABLE>
+<BR><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text-decoration" class="tryitbtn">Try it yourself »</A>
+</TD></TR></TBODY></TABLE>
+<P><IMG border="0" src="./CSS Text_files/lamp.gif" alt="Remark"> It is not recommended 
+to underline text that is not a link, as this often confuse users.</P>
+<HR>
+
+<H2>Text Transformation</H2>
+<P>The text-transform property is used to specify uppercase and lowercase letters 
+in a text.</P>
+<P>It can be used to turn everything into uppercase or lowercase letters, or 
+capitalize the first letter of each word.</P>
+
+<TABLE class="example" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+<H2 class="example">Example</H2>
+<TABLE class="example_code" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+p.uppercase {text-transform:uppercase;}<BR>
+p.lowercase {text-transform:lowercase;}<BR>
+p.capitalize {text-transform:capitalize;}</TD></TR></TBODY></TABLE>
+<BR><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text-transform" class="tryitbtn">Try it yourself »</A>
+</TD></TR></TBODY></TABLE>
+<BR>
+<HR>
+
+<H2>Text Indentation</H2>
+<P>The text-indentation property is used to specify the indentation of the first line 
+of a text.</P>
+
+<TABLE class="example" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+<H2 class="example">Example</H2>
+<TABLE class="example_code" border="0" cellpadding="0" cellspacing="0" width="100%"><TBODY><TR><TD>
+p {text-indent:50px;}</TD></TR></TBODY></TABLE>
+<BR><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text-indent" class="tryitbtn">Try it yourself »</A>
+</TD></TR></TBODY></TABLE>
+<BR>
+<HR>
+
+<TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
+<TBODY><TR>
+<TD align="left" width="48"><IMG border="0" src="./CSS Text_files/tryitimg.gif" width="40" height="46" alt="Examples"></TD>
+<TD align="left" valign="middle"><H2>More Examples</H2></TD>
+</TR>
+</TBODY></TABLE>
+
+<P><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_letter-spacing">Specify the space between
+characters</A><BR>
+This example demonstrates how to increase or decrease the space between
+characters.</P>
+
+<P><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_line-height">Specify the space between lines</A><BR>
+This example demonstrates how to specify the space between the lines in a paragraph.</P>
+
+<P><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text_direction">Set the 
+text direction of an element</A><BR>
+This example demonstrates how to change the text direction of an element.</P>
+<P><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text_word-spacing">
+Increase the white space between words</A><BR>
+This example demonstrates how to increase the white space between words in a 
+paragraph.</P>
+<P><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_text_white-space">Disable 
+text wrapping inside an element</A><BR>
+This example demonstrates how to disable text wrapping inside an element.</P>
+
+<P><A target="_blank" href="http://w3schools.com/css/tryit.asp?filename=trycss_vertical-align">Vertical alignment of an image</A><BR>
+This example demonstrates how to set the vertical align of an image in a text.</P>
+<HR>
+
+<H2>All CSS Text Properties</H2>
+<P>The number in the "CSS" column indicates in which CSS version 
+the property is defined (CSS1 or CSS2).</P>
+<TABLE class="reference" cellspacing="0" cellpadding="0" border="1" width="100%">
+  <TBODY><TR>
+    <TH width="20%" align="left">Property</TH>
+    <TH width="53%" align="left">Description</TH>
+    <TH width="20%" align="left">Values</TH>
+    <TH width="7%" align="left">CSS</TH>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_color.asp">color</A></TD>
+    <TD>Sets the color of a text</TD>
+    <TD><I>color</I></TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_direction.asp">direction</A></TD>
+    <TD>Sets the text direction</TD>
+    <TD>ltr<BR>
+      rtl</TD>
+    <TD>2</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_dim_line-height.asp">line-height</A></TD>
+    <TD>Sets the distance between lines</TD>
+    <TD>normal<BR>
+      <I>number<BR>
+      length<BR>
+      %</I></TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_letter-spacing.asp">letter-spacing</A></TD>
+    <TD>Increase or decrease the space between characters</TD>
+    <TD>normal<BR>
+      <I>length</I></TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_text-align.asp">text-align</A></TD>
+    <TD>Aligns the text in an element</TD>
+    <TD>left<BR>
+      right<BR>
+      center<BR>
+      justify</TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_text-decoration.asp">text-decoration</A></TD>
+    <TD>Adds decoration to text</TD>
+    <TD>none<BR>
+      underline<BR>
+      overline<BR>
+      line-through<BR>
+      blink</TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_text-indent.asp">text-indent</A></TD>
+    <TD>Indents the first line of text in an element</TD>
+    <TD><I>length<BR>
+      %</I></TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD>text-shadow</TD>
+    <TD>&nbsp;</TD>
+    <TD>none<BR>
+      <I>color</I><BR>
+      <I>length</I></TD>
+    <TD>&nbsp;</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_text-transform.asp">text-transform</A></TD>
+    <TD>Controls the letters in an element</TD>
+    <TD>none<BR>
+      capitalize<BR>
+      uppercase<BR>
+      lowercase</TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD>unicode-bidi</TD>
+    <TD>&nbsp;</TD>
+    <TD>normal<BR>
+      embed<BR>
+      bidi-override</TD>
+    <TD>2</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_pos_vertical-align.asp">vertical-align</A></TD>
+    <TD>Sets the vertical alignment of an element</TD>
+    <TD>baseline<BR>
+      sub<BR>
+      super<BR>
+      top<BR>
+      text-top<BR>
+      middle<BR>
+      bottom<BR>
+      text-bottom<BR>
+      <I>length</I><BR>
+      <I>%</I></TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_white-space.asp">white-space</A></TD>
+    <TD>Sets how white space inside an element is handled</TD>
+    <TD>normal<BR>
+      pre<BR>
+      nowrap</TD>
+    <TD>1</TD>
+  </TR>
+  <TR>
+    <TD><A href="http://w3schools.com/css/pr_text_word-spacing.asp">word-spacing</A></TD>
+    <TD>Increase or decrease the space between words</TD>
+    <TD>normal<BR>
+      <I>length</I></TD>
+    <TD>1</TD>
+  </TR>
+</TBODY></TABLE>
+<BR>
+<TABLE class="chapter" border="0" width="100%" cellspacing="0" cellpadding="0"><TBODY><TR>
+<TD class="prev"><A class="chapter" href="http://w3schools.com/css/css_background.asp">« Previous</A></TD>
+<TD class="next"><A class="chapter" href="http://w3schools.com/css/css_font.asp">Next Chapter »</A></TD>
+</TR></TBODY></TABLE>
+
+<HR>
+
+<!-- **** SPOTLIGHTS 1 **** -->
+
+<IFRAME id="w3schools_spot1" name="w3schools_spot1" src="./CSS Text_files/aspallframe.htm" height="100" width="100%" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</IFRAME>
+<HR>
+
+<!-- **** SPOTLIGHTS 2 **** -->
+
+
+<!-- **** SPOTLIGHTS 3 **** -->
+<SCRIPT type="text/javascript"><!--
+document.write('<table cellpadding="0" cellspacing="0"><tr><td width="108">&nbsp;</td><td>');
+google_ad_client = "pub-3440800076797949";
+/*txt*/
+google_ad_slot = "1699448869";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</SCRIPT><TABLE cellpadding="0" cellspacing="0"><TBODY><TR><TD width="108">&nbsp;</TD><TD>
+<SCRIPT type="text/javascript" src="./CSS Text_files/show_ads.js">
+</SCRIPT><SCRIPT src="./CSS Text_files/expansion_embed.js"></SCRIPT><SCRIPT src="./CSS Text_files/test_domain.js"></SCRIPT><SCRIPT>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</SCRIPT><INS style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px"><INS style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px"><IFRAME allowtransparency="true" frameborder="0" height="280" hspace="0" id="google_ads_frame1" marginheight="0" marginwidth="0" name="google_ads_frame" scrolling="no" src="./CSS Text_files/ads.htm" style="left:0;position:absolute;top:0" vspace="0" width="336"></IFRAME></INS></INS>
+<SCRIPT type="text/javascript">
+<!--
+document.write("</td></tr></table>");
+//-->
+</SCRIPT></TD></TR></TBODY></TABLE>
+
+<HR>
+<CENTER>
+<IFRAME id="w3schools_lq2" name="w3schools_lq2" style="background-color:#ffffff" src="./CSS Text_files/aspallbannerframe.htm" height="60" width="468" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</IFRAME>
+</CENTER>
+
+</TD></TR>
+</TBODY></TABLE>
+</TD>
+
+<TD id="rightcolumn" width="155" align="center" valign="top">
+<TABLE cellspacing="0">
+<TBODY><TR><TH>WEB HOSTING</TH></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.lunarpages.com/">Best Web Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.eukhost.com/">PHP MySQL Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.web-hosting-top.com/">Top 10 Web Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.heartinternet.co.uk/index.shtml">UK Reseller Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.webhosting.uk.com/">Web Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.imhosted.com/">FREE Web Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://stats.justhost.com/track?c878c3580275f4db3720fbc777a282233">Top Web Hosting</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.uk2.net/web-hosting/?trackingurl=3cc153a6-0678-46be-91f1-7a7dcacdc591">Cheap Web Hosting</A>
+</TD></TR>
+
+</TBODY></TABLE>
+
+<TABLE cellspacing="0">
+<TBODY><TR><TH>WEB BUILDING</TH></TR>
+<TR><TD>
+
+<A target="_blank" rel="nofollow" href="http://www.altova.com/ref/?s=w3s_text&q=xmlspy">Download XML Editor</A>
+
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.wix.com/start/wfree?utm_campaign=w3&experiment_id=w300">FREE Flash Website</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.dreamtemplate.com/?ref=w3txt">FREE Web Templates</A>
+</TD></TR>
+</TBODY></TABLE>
+
+<TABLE cellspacing="0">
+<TBODY><TR><TH>EDUCATION</TH></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.all-computer-schools.com/featured/web-design-development-programs?src=asd_acom_062007_00000001">US Web Design Schools</A>
+</TD></TR>
+<TR><TD>
+<A target="_blank" href="http://w3schools.com/cert/default.asp">HTML Certification</A><BR>
+<A target="_blank" href="http://w3schools.com/cert/default.asp">JavaScript Certification</A><BR>
+<A target="_blank" href="http://w3schools.com/cert/default.asp">XML Certification</A><BR>
+<A target="_blank" href="http://w3schools.com/cert/default.asp">PHP Certification</A><BR>
+<A target="_blank" href="http://w3schools.com/cert/default.asp">ASP Certification</A>
+</TD></TR>
+</TBODY></TABLE>
+
+<TABLE cellspacing="0">
+<TBODY><TR><TH>STATISTICS</TH></TR>
+<TR><TD>
+<A target="_top" href="http://w3schools.com/browsers/browsers_stats.asp">Browser Statistics</A><BR>
+<A target="_top" href="http://w3schools.com/browsers/browsers_os.asp">Browser OS</A><BR>
+<A target="_top" href="http://w3schools.com/browsers/browsers_display.asp">Browser Display</A>
+</TD></TR></TBODY></TABLE>
+
+<TABLE cellspacing="0">
+<TBODY><TR><TH>FLIGHT TICKETS</TH></TR>
+<TR><TD>
+<A target="_blank" rel="nofollow" href="http://www.functravel.com/flight/default.aspx?utm_source=w3schools&utm_campaign=w3textright&utm_medium=righttext">
+Find the cheapest flight<BR>
+to any destination now!</A>
+</TD></TR>
+</TBODY></TABLE>
+
+<SCRIPT type="text/javascript">
+<!--
+function sharethis()
+{
+txt='<a href="http://www.facebook.com/sharer.php?u='+document.URL+'" target="_blank" title="Facebook">'
+txt=txt+'<img src="/images/share_facebook.gif" border="0" width="16px" height="16px" style="margin-right:4px" /></a>';
+txt=txt+'<a href="http://twitter.com/home?status=Currently reading '+document.URL+'" target="_blank" title="Twitter">';
+txt=txt+'<img src="/images/share_twitter.gif" border="0" width="16px" height="16px" /></a>';
+document.getElementById("sharethis").innerHTML=txt;
+}
+//--></SCRIPT>
+<TABLE cellspacing="0">
+<TBODY><TR><TH>SHARE THIS PAGE</TH></TR>
+<TR>
+<TD id="sharethis">
+<DIV style="height:16px">
+<A href="http://w3schools.com/css/css_text.asp#" onclick="sharethis();return false;">Share with »</A>
+</DIV>
+</TD>
+</TR>
+</TBODY></TABLE>
+
+
+</TD></TR></TBODY></TABLE>
+
+<TABLE id="footer" align="center" border="0" width="890">
+<TBODY><TR>
+<TD align="left" width="200">
+<A href="http://www.w3schools.com/"><IMG border="0" src="./CSS Text_files/w3schoolscom_gray.gif" alt="W3Schools.com"></A>
+</TD>
+<TD align="right" style="word-spacing:6px;font-size:90%;padding-right:10px;">
+<A href="http://w3schools.com/default.asp" target="_top">HOME</A> |
+<A href="http://w3schools.com/css/css_text.asp#top" target="_top">TOP</A> |
+<A href="http://w3schools.com/css/css_text.asp?output=print" target="_blank">PRINT</A> |
+<A href="http://w3schools.com/forum/default.asp" target="_blank">FORUM</A> |
+<A href="http://w3schools.com/about/default.asp" target="_top">ABOUT</A>
+</TD>
+</TR>
+<TR>
+<TD valign="top" colspan="2" align="center" style="padding-top:10px">
+W3Schools is for training only. We do not warrant the correctness of its content.
+The risk from using it lies entirely with the user.
+<BR>
+While using this site, you agree to have read and accepted our
+<A href="http://w3schools.com/about/about_copyright.asp">terms of use</A> and
+<A href="http://w3schools.com/about/about_privacy.asp">privacy policy</A>.<BR>
+<A href="http://w3schools.com/about/about_copyright.asp">Copyright 1999-2010</A> by Refsnes Data. All Rights Reserved.
+</TD>
+</TR>
+</TBODY></TABLE>
+
+</TD>
+</TR></TBODY></TABLE>
+</CENTER>
+
+
+</BODY></HTML>

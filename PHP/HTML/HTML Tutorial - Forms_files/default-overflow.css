@@ -1,0 +1,657 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(http://www.tizag.com/pics/BannerTileBackground.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: arial; BACKGROUND-COLOR: #87aec5
+}
+H1 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 180%; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-SPACING: 1px; TEXT-TRANSFORM: lowercase; COLOR: #0a4369; LINE-HEIGHT: 0.9em; PADDING-TOP: 15px; BORDER-BOTTOM: #0a4369 1px dotted; LETTER-SPACING: -2px
+}
+UNKNOWN {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 150%; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+H2.specialT {
+	FONT-SIZE: 130%; MARGIN: 10px 0px 0px; COLOR: black; FONT-FAMILY: serif
+}
+H5.back {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; FONT-SIZE: 120%; FLOAT: left; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: courier; BACKGROUND-COLOR: #b5cfe0
+}
+H5.cont {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; FONT-SIZE: 120%; FLOAT: right; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: courier; BACKGROUND-COLOR: #b5cfe0
+}
+P {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; TEXT-INDENT: 25px
+}
+P.desc {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; TEXT-INDENT: 25px
+}
+DIV.code {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; FONT-SIZE: 90%; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.display {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.examp {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.examp P {
+	TEXT-INDENT: 0px
+}
+DIV.codewrap {
+	MARGIN: 10px; WIDTH: 480px
+}
+PRE.code {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #003b62 2px solid; OVERFLOW-Y: hidden; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 20px; OVERFLOW: auto; BORDER-LEFT: #003b62 2px solid; WIDTH: 470px; PADDING-TOP: 5px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: verdana; POSITION: relative; BACKGROUND-COLOR: #b5cfe0
+}
+#examp P {
+	TEXT-INDENT: 0px
+}
+#code {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; FONT-SIZE: 120%; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: courier; BACKGROUND-COLOR: #b5cfe0
+}
+#examp {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; BACKGROUND-COLOR: #b5cfe0
+}
+#exampSpecialMarginExample {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #003b62 2px solid; BACKGROUND-COLOR: #b5cfe0
+}
+#reference TD {
+	TEXT-ALIGN: center
+}
+#subref H1 {
+	TEXT-TRANSFORM: capitalize
+}
+TABLE.main {
+	BORDER-RIGHT: black 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: black 2px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 2px solid; COLOR: black; PADDING-TOP: 0px; BORDER-BOTTOM: black 2px solid; BACKGROUND-COLOR: #d2e7f4
+}
+TABLE.menu {
+	WIDTH: 100%; COLOR: black
+}
+TABLE.outter {
+	COLOR: black
+}
+TD.menu {
+	WIDTH: 140px
+}
+TD.banner {
+	BACKGROUND-IMAGE: url(../pics/BannerTileBackground.gif); BACKGROUND-REPEAT: repeat-x
+}
+TD.menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 140px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+HR {
+	COLOR: #003b62
+}
+STRONG {
+	FONT-SIZE: 150%
+}
+A:link {
+	FONT-WEIGHT: 500; FONT-SIZE: 90%; COLOR: black; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: 500; FONT-SIZE: 90%; COLOR: black; TEXT-DECORATION: underline
+}
+A:hover {
+	WORD-SPACING: 0px; COLOR: #c02020; TEXT-DECORATION: underline
+}
+DIV#menu {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial
+}
+DIV#menu A:link {
+	DISPLAY: block; COLOR: black; TEXT-DECORATION: none
+}
+DIV#menu A:visited {
+	DISPLAY: block; COLOR: black; TEXT-DECORATION: none
+}
+DIV#menu A:hover {
+	DISPLAY: block; FONT-WEIGHT: bold; COLOR: #c02020; TEXT-DECORATION: underline
+}
+DIV#rightMenu A:link {
+	DISPLAY: block; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+DIV#rightMenu A:visited {
+	DISPLAY: block; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+DIV#rightMenu A:hover {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #c02020; TEXT-DECORATION: underline
+}
+DIV.rightMenu A:link {
+	DISPLAY: block; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+DIV.rightMenu A:visited {
+	DISPLAY: block; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana, Arial; TEXT-DECORATION: none
+}
+DIV.rightMenu A:hover {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #c02020; TEXT-DECORATION: underline
+}
+A.forumTitle {
+	BORDER-RIGHT: #003b62 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #003b62 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #003b62 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #003b62 1px solid; BACKGROUND-COLOR: #b5cfe0; TEXT-DECORATION: none
+}
+A.forumTitle:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+DIV.forumThreads {
+	BORDER-RIGHT: #003b62 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #003b62 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #003b62 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #003b62 1px solid; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.forumThreads A {
+	TEXT-DECORATION: none
+}
+DIV.forumThreads A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+BODY.test {
+	TEXT-ALIGN: center
+}
+DIV#container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: auto; WIDTH: 780px; MARGIN-RIGHT: auto; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+DIV#banner {
+	MARGIN-BOTTOM: 10px; WIDTH: 100%
+}
+DIV#banner P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+DIV#menuPane {
+	PADDING-RIGHT: 5px; FLOAT: left; WIDTH: 140px
+}
+DIV#contentPane {
+	BORDER-RIGHT: black 2px solid; PADDING-RIGHT: 8px; BORDER-TOP: black 2px solid; PADDING-LEFT: 8px; FLOAT: left; PADDING-BOTTOM: 8px; BORDER-LEFT: black 2px solid; WIDTH: 485px; PADDING-TOP: 8px; BORDER-BOTTOM: black 2px solid; BACKGROUND-COLOR: #d2e7f4
+}
+DIV#rightMenuPane {
+	FLOAT: right; MARGIN-LEFT: 5px; WIDTH: 122px
+}
+DIV#googleads {
+	RIGHT: 5px; POSITION: absolute; TOP: 145px
+}
+DIV#copyright {
+	CLEAR: left; WIDTH: 100%; TEXT-ALIGN: center
+}
+DIV.colorBlockContainer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+SPAN.colorBlock {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+A.menu:link {
+	FONT-WEIGHT: 500; FONT-SIZE: 90%; COLOR: black; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-WEIGHT: 500; FONT-SIZE: 90%; COLOR: black; TEXT-DECORATION: none
+}
+A.menu:hover {
+	WORD-SPACING: 0px; COLOR: #c02020; TEXT-DECORATION: underline
+}
+EM.attn {
+	COLOR: red; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+UL#nav {
+	PADDING-RIGHT: 0px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.5em; MARGIN: 0px; PADDING-TOP: 0.5em; LIST-STYLE-TYPE: none
+}
+UL#nav LI A {
+	BORDER-RIGHT: 2px outset; PADDING-RIGHT: 1px; BORDER-TOP: 2px outset; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: 2px outset; WIDTH: 90px; COLOR: #fff; PADDING-TOP: 1px; BORDER-BOTTOM: 2px outset; BACKGROUND-COLOR: #003b62; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+UL#nav LI A:hover {
+	BORDER-RIGHT: 2px inset; BORDER-TOP: 2px inset; BORDER-LEFT: 2px inset; COLOR: #fff; BORDER-BOTTOM: 2px inset; BACKGROUND-COLOR: #87aec5
+}
+UL#nav .back {
+	FLOAT: left
+}
+UL#nav .cont {
+	FLOAT: right
+}
+TABLE.refTable {
+	WIDTH: 500px
+}
+#container TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #b5cfe0
+}
+TD.compG {
+	BACKGROUND-COLOR: green
+}
+TD.compY {
+	BACKGROUND-COLOR: yellow
+}
+P.internWT {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 100%; PADDING-BOTTOM: 6px; MARGIN: 0px; COLOR: white; PADDING-TOP: 6px; BACKGROUND-COLOR: black
+}
+P.externExamp {
+	COLOR: blue
+}
+H3.externExamp {
+	COLOR: white
+}
+#exampExternExamp {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #003b62 2px solid; BACKGROUND-COLOR: gray
+}
+P.classFirstA {
+	COLOR: blue
+}
+P.classSecondA {
+	COLOR: red
+}
+P.classTestAll {
+	FONT-SIZE: 20px; COLOR: red
+}
+P.classTest1 {
+	FONT-SIZE: 20px; COLOR: blue
+}
+P.classTest2 {
+	FONT-SIZE: 12px; COLOR: red
+}
+H4.bg {
+	BACKGROUND-COLOR: white
+}
+P.bg {
+	BACKGROUND-COLOR: #1078e1
+}
+UL.bg {
+	BACKGROUND-COLOR: rgb(149,206,145)
+}
+P.bgImage {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+H4.bgImage {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(http://www.tizag.com/pics/cssT/smallPic.jpg); PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+P.bgImageR {
+	BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: repeat
+}
+H4.bgImageRY {
+	BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: repeat-y
+}
+OL.bgImageRX {
+	BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: repeat-x
+}
+UL.bgImageNR {
+	BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: no-repeat
+}
+TEXTAREA.bgImageSc {
+	BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg)
+}
+TEXTAREA.bgImageNSc {
+	BACKGROUND-ATTACHMENT: scroll; BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg)
+}
+P.bgImagePosPx {
+	BACKGROUND-POSITION: 20px 2px; BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: no-repeat
+}
+H4.bgImagePosPer {
+	BACKGROUND-POSITION: 30% 10%; BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: no-repeat
+}
+OL.bgImagePosK {
+	BACKGROUND-POSITION: center top; BACKGROUND-IMAGE: url(../pics/cssT/smallPic.jpg); BACKGROUND-REPEAT: no-repeat
+}
+P.bgGradient {
+	BACKGROUND-IMAGE: url(http://www.tizag.com/pics/BannerTileBackground.gif); BACKGROUND-REPEAT: repeat-x
+}
+H4.fontcolor1 {
+	COLOR: red
+}
+H5.fontcolor2 {
+	COLOR: #9000a1
+}
+H6.fontcolor3 {
+	COLOR: rgb(0,220,98)
+}
+H4.fontfss {
+	FONT-FAMILY: sans-serif
+}
+H5.fontfs {
+	FONT-FAMILY: serif
+}
+H6.fontfa {
+	FONT-FAMILY: arial
+}
+P.fontSPer {
+	FONT-SIZE: 140%
+}
+OL.fontSPx {
+	FONT-SIZE: 16px
+}
+UL.fontSKT {
+	FONT-SIZE: x-large
+}
+P.fontStI {
+	FONT-STYLE: italic
+}
+H4.fontStO {
+	FONT-STYLE: oblique
+}
+B.fontWV {
+	FONT-WEIGHT: 100; FONT-SIZE: 120%
+}
+UL.fontWKT {
+	FONT-WEIGHT: bolder; FONT-SIZE: 120%
+}
+P.fontV {
+	FONT-VARIANT: small-caps
+}
+H4.textDL {
+	TEXT-DECORATION: line-through
+}
+H5.textDO {
+	TEXT-DECORATION: overline
+}
+H6.textDU {
+	TEXT-DECORATION: underline
+}
+A.textDN:link {
+	TEXT-DECORATION: none
+}
+A.textDN:visited {
+	TEXT-DECORATION: none
+}
+A.textDN:hover {
+	TEXT-DECORATION: none
+}
+P.textIPx {
+	TEXT-INDENT: 20px
+}
+H5.textIPer {
+	TEXT-INDENT: 30%
+}
+P.textAR {
+	TEXT-ALIGN: right
+}
+H5.textAJ {
+	TEXT-ALIGN: justify
+}
+P.textTC {
+	TEXT-TRANSFORM: capitalize
+}
+H4.textTU {
+	TEXT-TRANSFORM: uppercase
+}
+H5.textTL {
+	TEXT-TRANSFORM: lowercase
+}
+P.whiteN {
+	OVERFLOW: scroll; WIDTH: 430px; WHITE-SPACE: nowrap
+}
+P.wordPx {
+	WORD-SPACING: 10px
+}
+P.letterPx {
+	LETTER-SPACING: 3px
+}
+P.marginEP {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; MARGIN: 5px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+H5.marginEH {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; MARGIN: 0px; BORDER-LEFT: red 1px solid; BORDER-BOTTOM: red 1px solid
+}
+P.marginOPx {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; MARGIN: 2%; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+H5.marginOPer {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; MARGIN: 0px; BORDER-LEFT: red 1px solid; BORDER-BOTTOM: red 1px solid
+}
+P.marginDir1 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; MARGIN-LEFT: 5px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+H5.marginDir4 {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; MARGIN: 0px 2px 13px 21px; BORDER-LEFT: red 1px solid; BORDER-BOTTOM: red 1px solid
+}
+P.marginAll2 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; MARGIN: 5px 15px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+H5.marginAll4 {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; MARGIN: 0px 5px 10px 3px; BORDER-LEFT: red 1px solid; BORDER-BOTTOM: red 1px solid
+}
+P.paddingEP {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: black 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; BORDER-LEFT: black 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: black 1px solid
+}
+H5.paddingEH {
+	BORDER-RIGHT: red 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: red 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 1px solid
+}
+P.paddingOPx {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 2%; BORDER-TOP: black 1px solid; PADDING-LEFT: 2%; PADDING-BOTTOM: 2%; BORDER-LEFT: black 1px solid; PADDING-TOP: 2%; BORDER-BOTTOM: black 1px solid
+}
+H5.paddingOPer {
+	BORDER-RIGHT: red 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: red 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 1px solid
+}
+P.paddingDir1 {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+H5.paddingDir4 {
+	BORDER-RIGHT: red 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: red 1px solid; PADDING-LEFT: 21px; PADDING-BOTTOM: 13px; BORDER-LEFT: red 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 1px solid
+}
+P.paddingAll2 {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: black 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; BORDER-LEFT: black 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: black 1px solid
+}
+H5.paddingAll4 {
+	BORDER-RIGHT: red 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: red 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 10px; BORDER-LEFT: red 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 1px solid
+}
+P.borderSolid {
+	BORDER-TOP-STYLE: solid; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-BOTTOM-STYLE: solid
+}
+P.borderDouble {
+	BORDER-TOP-STYLE: double; BORDER-RIGHT-STYLE: double; BORDER-LEFT-STYLE: double; BORDER-BOTTOM-STYLE: double
+}
+P.borderGroove {
+	BORDER-TOP-STYLE: groove; BORDER-RIGHT-STYLE: groove; BORDER-LEFT-STYLE: groove; BORDER-BOTTOM-STYLE: groove
+}
+P.borderDotted {
+	BORDER-TOP-STYLE: dotted; BORDER-RIGHT-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-BOTTOM-STYLE: dotted
+}
+P.borderDashed {
+	BORDER-TOP-STYLE: dashed; BORDER-RIGHT-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-BOTTOM-STYLE: dashed
+}
+P.borderInset {
+	BORDER-TOP-STYLE: inset; BORDER-RIGHT-STYLE: inset; BORDER-LEFT-STYLE: inset; BORDER-BOTTOM-STYLE: inset
+}
+P.borderOutset {
+	BORDER-TOP-STYLE: outset; BORDER-RIGHT-STYLE: outset; BORDER-LEFT-STYLE: outset; BORDER-BOTTOM-STYLE: outset
+}
+P.borderRidge {
+	BORDER-TOP-STYLE: ridge; BORDER-RIGHT-STYLE: ridge; BORDER-LEFT-STYLE: ridge; BORDER-BOTTOM-STYLE: ridge
+}
+P.borderHidden {
+	
+}
+P.borderWK {
+	BORDER-RIGHT: thick solid; BORDER-TOP: thick solid; BORDER-LEFT: thick solid; BORDER-BOTTOM: thick solid
+}
+TABLE.borderWPx {
+	BORDER-RIGHT: 7px outset; BORDER-TOP: 7px outset; BORDER-LEFT: 7px outset; BORDER-BOTTOM: 7px outset
+}
+TD.borderWTD {
+	BORDER-RIGHT: outset; BORDER-TOP: outset; BORDER-LEFT: outset; BORDER-BOTTOM: outset
+}
+P.borderCK {
+	BORDER-LEFT-COLOR: blue; BORDER-BOTTOM-COLOR: blue; BORDER-TOP-STYLE: solid; BORDER-TOP-COLOR: blue; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-RIGHT-COLOR: blue; BORDER-BOTTOM-STYLE: solid
+}
+TABLE.borderCRGB {
+	BORDER-LEFT-COLOR: rgb(100,100,255); BORDER-BOTTOM-COLOR: rgb(100,100,255); BORDER-TOP-STYLE: dashed; BORDER-TOP-COLOR: rgb(100,100,255); BORDER-RIGHT-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-RIGHT-COLOR: rgb(100,100,255); BORDER-BOTTOM-STYLE: dashed
+}
+TD.borderCHex {
+	BORDER-LEFT-COLOR: #ffbd32; BORDER-BOTTOM-COLOR: #ffbd32; BORDER-TOP-STYLE: ridge; BORDER-TOP-COLOR: #ffbd32; BORDER-RIGHT-STYLE: ridge; BORDER-LEFT-STYLE: ridge; BORDER-RIGHT-COLOR: #ffbd32; BORDER-BOTTOM-STYLE: ridge
+}
+P.borderDB {
+	BORDER-BOTTOM: yellow 5px dashed
+}
+H4.borderDT {
+	BORDER-TOP: purple thick double
+}
+H5.borderDLB {
+	BORDER-LEFT: green 15px groove; BORDER-BOTTOM: yellow 25px ridge
+}
+P.borderA3 {
+	BORDER-RIGHT: blue 20px outset; BORDER-TOP: blue 20px outset; BORDER-LEFT: blue 20px outset; BORDER-BOTTOM: blue 20px outset
+}
+H4.borderA2WS {
+	BORDER-RIGHT: 5px solid; BORDER-TOP: 5px solid; BORDER-LEFT: 5px solid; BORDER-BOTTOM: 5px solid
+}
+H5.borderA1C {
+	BORDER-TOP-STYLE: dotted; BORDER-RIGHT-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-BOTTOM-STYLE: dotted
+}
+B.posAbsB {
+	LEFT: 30px; POSITION: absolute; TOP: 10px
+}
+P.posAbsPx {
+	LEFT: 50px; POSITION: absolute; TOP: 300px
+}
+P.posRelPx {
+	LEFT: 250px; POSITION: absolute; TOP: 500px
+}
+P.posStaPx {
+	LEFT: 150px; POSITION: absolute; TOP: 500px
+}
+UL.listsPosI {
+	LIST-STYLE-POSITION: inside
+}
+UL.listsPosO {
+	LIST-STYLE-POSITION: outside
+}
+UL.listsImage1 {
+	LIST-STYLE-IMAGE: url(../pics/cssT/listArrow.gif)
+}
+OL.listsImage2 {
+	LIST-STYLE-IMAGE: url(../pics/cssT/listArrow2.gif)
+}
+UL.listsTypeRom {
+	LIST-STYLE-TYPE: upper-roman
+}
+OL.listsTypeDisc {
+	LIST-STYLE-TYPE: circle
+}
+UL.listsAll {
+	LIST-STYLE: upper-roman url(http://www.example.com/notHere.gif) inside
+}
+A.pclassA:link {
+	COLOR: red; TEXT-DECORATION: underline
+}
+A.pclassA:visited {
+	COLOR: red; TEXT-DECORATION: underline
+}
+A.pclassA:hover {
+	FONT-WEIGHT: normal; WORD-SPACING: 0px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.pclassB:link {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.pclassB:visited {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.pclassB:hover {
+	FONT-WEIGHT: normal; WORD-SPACING: 0px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.pclassC:link {
+	BORDER-RIGHT: white 2px solid; BORDER-TOP: white 2px solid; FONT-WEIGHT: normal; BORDER-LEFT: white 2px solid; COLOR: white; BORDER-BOTTOM: white 2px solid; BACKGROUND-COLOR: black; TEXT-DECORATION: none
+}
+A.pclassC:visited {
+	BORDER-RIGHT: white 2px solid; BORDER-TOP: white 2px solid; FONT-WEIGHT: normal; BORDER-LEFT: white 2px solid; COLOR: white; BORDER-BOTTOM: white 2px solid; BACKGROUND-COLOR: black; TEXT-DECORATION: none
+}
+A.pclassC:hover {
+	BORDER-RIGHT: black 2px solid; BORDER-TOP: black 2px solid; FONT-WEIGHT: normal; WORD-SPACING: 0px; BORDER-LEFT: black 2px solid; COLOR: black; BORDER-BOTTOM: black 2px solid; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+A.pclassD:link {
+	BORDER-RIGHT: blue 10px outset; BORDER-TOP: blue 10px outset; FONT-WEIGHT: normal; FONT-SIZE: 26px; TEXT-TRANSFORM: lowercase; BORDER-LEFT: blue 10px outset; COLOR: blue; BORDER-BOTTOM: blue 10px outset; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: red; TEXT-DECORATION: none
+}
+A.pclassD:visited {
+	BORDER-RIGHT: blue 10px outset; BORDER-TOP: blue 10px outset; FONT-WEIGHT: normal; FONT-SIZE: 26px; TEXT-TRANSFORM: lowercase; BORDER-LEFT: blue 10px outset; COLOR: blue; BORDER-BOTTOM: blue 10px outset; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: red; TEXT-DECORATION: none
+}
+A.pclassD:hover {
+	BORDER-RIGHT: blue 10px inset; BORDER-TOP: blue 10px inset; FONT-WEIGHT: normal; FONT-SIZE: 27px; WORD-SPACING: 6px; TEXT-TRANSFORM: uppercase; BORDER-LEFT: blue 10px inset; COLOR: blue; BORDER-BOTTOM: blue 10px inset; FONT-FAMILY: serif; LETTER-SPACING: 3px; BACKGROUND-COLOR: red; TEXT-DECORATION: line-through
+}
+P.cursorWait {
+	CURSOR: wait
+}
+H4.cursorHelp {
+	CURSOR: help
+}
+H5.cursorCross {
+	CURSOR: crosshair
+}
+H4.layer1 {
+	Z-INDEX: 2; LEFT: 50px; POSITION: relative; TOP: 30px; BACKGROUND-COLOR: #336699
+}
+P.layer1 {
+	Z-INDEX: 1; POSITION: relative; BACKGROUND-COLOR: #ffcccc
+}
+A.disp1 {
+	DISPLAY: block
+}
+P.disp1 {
+	DISPLAY: inline
+}
+P.disp2 {
+	DISPLAY: block
+}
+P.disp2hidden {
+	DISPLAY: none
+}
+H1.tags {
+	FONT-SIZE: 250%; BORDER-BOTTOM: black 0px solid
+}
+#but1 {
+	LEFT: 676px; POSITION: absolute; TOP: 15px
+}
+A.linksESPN:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A.linksESPN:visited {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+A.linksESPN:active {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+IMG.linksESPN {
+	BORDER-TOP-WIDTH: 2px; BORDER-LEFT-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 2px; BORDER-RIGHT-WIDTH: 2px
+}
+IMG.flash {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+IMG.floatLeft1 {
+	FLOAT: left; MARGIN: 5px
+}
+IMG.floatRight1 {
+	FLOAT: right; MARGIN: 5px
+}
+IMG.floatRightClear {
+	CLEAR: right; FLOAT: right
+}
+P#exampleID1 {
+	BACKGROUND-COLOR: white
+}
+P#exampleID2 {
+	TEXT-TRANSFORM: uppercase
+}
+P.exampleID3 {
+	COLOR: white; BACKGROUND-COLOR: #013370
+}
+DIV.userSubmitTable TABLE {
+	BORDER-RIGHT: #013c63 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #013c63 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #013c63 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #013c63 1px solid; BACKGROUND-COLOR: #b2cedf
+}
+DIV.userSubmitTable TD {
+	BORDER-RIGHT: #013c63 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #013c63 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; MARGIN: 0px; BORDER-LEFT: #013c63 1px solid; COLOR: #013c63; PADDING-TOP: 4px; BORDER-BOTTOM: #013c63 1px solid
+}
+TABLE.userCode {
+	
+}
+TD.userCodeBox {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; FONT-SIZE: 90%; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.cookieCrumb {
+	BORDER-RIGHT: #003b62 2px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 2px solid; PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 120%; PADDING-BOTTOM: 7px; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 2px solid; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.cookieCrumb A:link {
+	
+}
+DIV.cookieCrumb A:visited {
+	
+}
+DIV.cookieCrumb A:hover {
+	
+}
+DIV.userTutorialList {
+	FONT-SIZE: 120%
+}
+DIV.userTutorialList TABLE {
+	BORDER-RIGHT: #003b62 2px solid; BORDER-TOP: #003b62 2px solid; MARGIN: 5px; BORDER-LEFT: #003b62 2px solid; BORDER-BOTTOM: #003b62 2px solid; BACKGROUND-COLOR: #b5cfe0
+}
+DIV.userTutorialList TD {
+	BORDER-RIGHT: #003b62 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 1px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; BORDER-LEFT: #003b62 1px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 1px solid
+}
+DIV.userTutorialList TH {
+	BORDER-RIGHT: #003b62 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #003b62 1px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; BORDER-LEFT: #003b62 1px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #003b62 1px solid
+}

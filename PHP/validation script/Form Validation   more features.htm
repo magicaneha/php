@@ -1,0 +1,304 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0063)http://www.javascript-coder.com/html-form/form-validation.phtml -->
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">	<TITLE>Form Validation : more features</TITLE>
+	<META name="DESCRIPTION" content="Using the advanced features of the form validation script">
+	<META name="KEYWORDS" content="form validation">	
+	<LINK rel="STYLESHEET" type="text/css" href="./Form Validation   more features_files/jsc.css">
+</HEAD><BODY>
+<CENTER>
+<TABLE cellspacing="0" cellpadding="0" border="0" width="820">
+<TBODY><TR>
+	<TD>
+		<TABLE cellspacing="0" cellpadding="0" border="0" width="820">
+		<TBODY><TR>
+		    <TD align="left" height="60"> &nbsp; 
+		    <A href="http://www.javascript-coder.com/index.php"><IMG src="./Form Validation   more features_files/javascript-coder-new.jpg" height="43" width="275" border="0"></A>
+			</TD>
+		</TR>
+		<TR>
+			<TD align="left">  &nbsp;  &nbsp; 
+			<A class="header" href="http://www.javascript-coder.com/index.php"><IMG src="./Form Validation   more features_files/home.gif" height="10" width="34" border="0"></A> &nbsp;
+			<A class="header" href="http://www.javascript-coder.com/about.phtml"><IMG src="./Form Validation   more features_files/about.gif" height="11" width="34" border="0"></A> &nbsp;
+			<A class="header" href="http://www.javascript-coder.com/links/show-links.php"><IMG src="./Form Validation   more features_files/links.gif" height="11" width="30" border="0"></A>
+			</TD>
+		</TR>
+		<TR>
+			</TR></TBODY></TABLE><TABLE width="820" height="12" cellspacing="0" cellpadding="0" border="0">
+			<TBODY><TR>
+				<TD width="6" valign="bottom"><IMG src="./Form Validation   more features_files/head-line-l-end.jpg" width="6" height="12" border="0"></TD>
+			    <TD width="594" valign="bottom" background="./Form Validation   more features_files/head-line.jpg"><IMG src="./Form Validation   more features_files/sp.gif" width="1" height="1" border="0"></TD>
+				<TD width="204" background="./Form Validation   more features_files/head-line.jpg" align="left"><IMG src="./Form Validation   more features_files/sp.gif" width="1" height="1" border="0"></TD>
+				<TD width="16" background="./Form Validation   more features_files/line-r-end.jpg" align="left"><IMG src="./Form Validation   more features_files/sp.gif" width="1" height="1" border="0"></TD>
+			</TR>
+			</TBODY></TABLE>
+			</TD>
+		</TR>
+		</TBODY></TABLE>
+	
+
+
+</CENTER><CENTER>
+<TABLE cellspacing="0" cellpadding="0" border="0" width="820">
+<TBODY><TR>
+<TD width="600" valign="top" class="mainbody">	
+	<H1>Form Validation : more features</H1>
+	This is in continuation of the <A href="http://www.javascript-coder.com/html-form/javascript-form-validation.phtml">JavaScript Form Validation script explained here</A>.
+	In this page, we will see some of the advanced features of the script.
+	
+	<H2>Showing all the form validation errors together in a message box</H2>
+	For some forms, you may wish to show all the errors together.
+	You can do that just by adding a function call, if you are using the 
+	<A href="http://www.javascript-coder.com/html-form/javascript-form-validation.phtml">JavaScript form validation script</A>.
+	<P>
+	<IMG src="./Form Validation   more features_files/form-validation.jpg" height="308" width="432" border="0" alt="form validation message box">
+	</P>
+	<P>
+	If you want to show all the error messages together in the message box, 
+	then just call the EnableMsgsTogether() function in the validator object. 
+	</P>
+	<P>
+	For example:<BR>
+	<CODE>frmvalidator.EnableMsgsTogether();</CODE> 
+	</P>
+	<P>
+	See the <A href="http://www.javascript-coder.com/html-form/form-validation-example-1.html">form validation sample code</A>
+	</P>
+	<A name="onpage"></A>
+	<H2>Showing the form validation errors on the page itself</H2>
+	 You can display the validation errors on the page itself. 
+	 <P>
+	 <IMG src="./Form Validation   more features_files/form-validation-2.jpg" height="128" width="255" border="0" alt="form validation: on page error">
+	 </P>
+	 For this,there are two steps that you need to do.
+	 <OL>
+	 <LI>Create a place on the page for displaying the errors</LI><BR>
+	 create a DIV on the page for the errors the DIV should be named as
+	 {formname}_errorloc where {formname} is the name of your form.
+	 For example:<BR>
+	 <CODE class="htm">
+	 &lt;div id='myform_errorloc' class='error_strings'&gt;&lt;/div&gt;
+	 </CODE><BR><BR>
+	 <LI>Enable on-page error display</LI><BR>
+	 Call the EnableOnPageErrorDisplaySingleBox() function to enable 
+	 on page error display.
+	 <P>
+	 For example:<BR>
+	 <CODE>
+	  	frmvalidator.EnableOnPageErrorDisplaySingleBox();<BR>
+ 		frmvalidator.EnableMsgsTogether();<BR>
+ 	</CODE>	
+ 	</P>
+ 	</OL>
+ 	
+ 	<P>
+	See the <A href="http://www.javascript-coder.com/html-form/form-validation-example-2.html">form validation sample code</A>
+	that illustrates the on page error display.
+	</P>
+</TD>
+<TD width="220" valign="top">
+<TABLE cellspacing="0" cellpadding="6" border="0" width="220">
+<TBODY><TR>
+    <TD colspan="2">
+    <P>
+    </P><DIV><A href="http://www.addthis.com/bookmark.php" onclick="window.open(&#39;http://www.addthis.com/bookmark.php?pub=prasanthmj&amp;url=http://www.javascript-coder.com/html-form/form-validation.phtml&amp;title=Form Validation : more features&#39;, &#39;addthis&#39;, &#39;scrollbars=yes,menubar=no,width=620,height=520,resizable=yes,toolbar=no,location=no,status=no&#39;); return false;" title="Bookmark using any bookmark manager!" target="_blank"><IMG src="./Form Validation   more features_files/button1-bm.gif" width="125" height="16" border="0"></A></DIV>
+<DIV class="sociable">
+<UL>
+	<LI><A href="http://digg.com/submit?phase=2&url=http://www.javascript-coder.com/html-form/form-validation.phtml&title=Form%20Validation%20:%20more%20features" title="Digg" onfocus="sociable_description_link(this, &#39;bodytext&#39;)"><IMG src="./Form Validation   more features_files/digg.png" title="Digg" alt="Digg" class="sociable-hovers"></A></LI>
+	<LI><A href="http://del.icio.us/post?url=http://www.javascript-coder.com/html-form/form-validation.phtml&title=Form%20Validation%20:%20more%20features" title="del.icio.us"><IMG src="./Form Validation   more features_files/delicious.png" title="del.icio.us" alt="del.icio.us" class="sociable-hovers"></A></LI>
+	<LI><A href="http://www.netscape.com/submit/?U=http://www.javascript-coder.com/html-form/form-validation.phtml&T=Form%20Validation%20:%20more%20features" title="Netscape"><IMG src="./Form Validation   more features_files/netscape.gif" title="Netscape" alt="Netscape" class="sociable-hovers"></A></LI>
+	<LI><A href="http://reddit.com/submit?url=http://www.javascript-coder.com/html-form/form-validation.phtml&title=Form%20Validation%20:%20more%20features" title="Reddit"><IMG src="./Form Validation   more features_files/reddit.png" title="Reddit" alt="Reddit" class="sociable-hovers"></A></LI>
+	<LI><A href="http://www.stumbleupon.com/submit?url=http://www.javascript-coder.com/html-form/form-validation.phtml&title=Form%20Validation%20:%20more%20features" title="StumbleUpon"><IMG src="./Form Validation   more features_files/stumbleupon.png" title="StumbleUpon" alt="StumbleUpon" class="sociable-hovers"></A></LI>
+	<LI><A href="http://technorati.com/faves?add=http://www.javascript-coder.com/html-form/form-validation.phtml" title="Technorati"><IMG src="./Form Validation   more features_files/technorati.png" title="Technorati" alt="Technorati" class="sociable-hovers"></A></LI>
+	<LI><A href="http://myweb2.search.yahoo.com/myresults/bookmarklet?u=http://www.javascript-coder.com/html-form/form-validation.phtml&=Form%20Validation%20:%20more%20features" title="YahooMyWeb"><IMG src="./Form Validation   more features_files/yahoomyweb.png" title="YahooMyWeb" alt="YahooMyWeb" class="sociable-hovers"></A></LI>
+</UL>
+</DIV>    <P></P>
+	</TD>
+</TR>
+<TR>
+    <TD colspan="2">
+    <P><A href="http://www.simfatic.com/forms/benefits.php"><IMG class="advimg" src="./Form Validation   more features_files/make-form-without-coding.png" height="300" width="200" border="0" alt="How to make a form without coding? Click here for a demo."></A>
+    </P>
+	</TD>
+</TR>
+<TR>
+    <TD colspan="2">
+    <P>
+    	<A href="http://twitter.com/javascriptcoder"><IMG src="./Form Validation   more features_files/twitter3gif.gif" height="63" width="143" border="0" alt="Follow me on twitter"></A>
+    </P>
+	</TD>
+</TR>
+<TR>
+    <TD colspan="2"><B class="menusection">
+	<A href="http://www.javascript-coder.com/html-form/html-form-tutorial-p1.phtml">HTML Forms</A></B></TD>
+</TR>
+<TR>
+    <TD>
+    <TD><A href="http://www.javascript-coder.com/html-form/html-form-tutorial-p1.phtml">HTML Form Tutorial</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD><A href="http://www.javascript-coder.com/html-form/html-form-tag.phtml">The Form Tag</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD><A href="http://www.javascript-coder.com/html-form/html-form-submit.phtml">The Form Submit Button</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/html-form/form-design-software.phtml">Form design software</A><BR>
+     </TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/html-form/how-to-make-a-form.phtml">How to make a web form</A><BR>
+     </TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/html-form/how-to-make-a-form-quickly.phtml">Make web forms quickly, without coding</A><BR>
+    </TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<BR>
+     </TD>
+</TR>
+<TR>
+    <TD colspan="2"><B class="menusection">
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-form.phtml">Javascript Form Handling</A></B></TD>
+</TR>
+<TR>
+    <TD colspan="2"> &nbsp; <B>Basics</B></TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/getelementbyid-form.htm">Using getElementById to get the elements in a form</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-form-value.htm">Set value of 
+	form element using JavaScript</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-get-form.htm">Get value of form element using JavaScript</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-forms-get-all-form-objects.htm">Handling multiple forms using JavaScript</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-reset-form.htm">JavaScript reset/clear a form</A>
+	</TD>
+</TR>
+<TR>
+    <TD colspan="2"> &nbsp; <B>Advanced</B></TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/html-form/javascript-form-validation.phtml">JavaScript Form Validation</A><BR>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-form-submit.phtml">Submitting a form using JavaScript</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/javascript-form/javascript-email-form.phtml">Can JavaScript Email a Form?</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/html-form/html-form-action.phtml">Switching the form action field dynamically</A>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/button/javascript-button-p1.phtml">JavaScript Button</A><BR>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<BR>
+     </TD>
+</TR>
+<TR>
+    <TD colspan="2"><B class="menusection">
+	<A href="http://www.javascript-coder.com/window-popup/javascript-popup-window.phtml">JavaScript Popup Windows</A></B></TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/window-popup/javascript-window-open.phtml">The window.open method</A><BR>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/window-popup/javascript-window-close.phtml">The window.close method</A><BR>
+	</TD>
+</TR>
+<TR>
+    <TD>
+    <TD>
+	<A href="http://www.javascript-coder.com/index.php">More ...</A><BR>
+	</TD>
+</TR>
+</TBODY></TABLE>
+<P></P></TD>
+</TR>
+</TBODY></TABLE>
+</CENTER>
+<CENTER>
+<TABLE width="820" cellspacing="0" cellpadding="0" border="0">
+<TBODY><TR><TD colspan="3" height="15">
+  &nbsp;
+</TD>
+</TR><TR>
+	<TD width="6" valign="bottom"><IMG src="./Form Validation   more features_files/head-line-l-end.jpg" width="6" height="12" border="0"></TD>
+    <TD width="798" valign="bottom" background="./Form Validation   more features_files/head-line.jpg"><IMG src="./Form Validation   more features_files/sp.gif" width="1" height="1" border="0"></TD>
+	<TD width="16" background="./Form Validation   more features_files/line-r-end.jpg" align="left"><IMG src="./Form Validation   more features_files/sp.gif" width="1" height="1" border="0"></TD>
+</TR>
+<TR><TD colspan="3" align="center">
+. &nbsp; Copyright © 2003-2009 JavaScript-coder.com. All rights reserved.<BR>
+
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT><SCRIPT src="./Form Validation   more features_files/ga.js" type="text/javascript"></SCRIPT>
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4502881-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+
+</TD>
+</TR>
+</TBODY></TABLE>
+</CENTER><SCRIPT type="text/javascript" src="./Form Validation   more features_files/4395.js"> </SCRIPT>
+</BODY></HTML>

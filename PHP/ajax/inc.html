@@ -1,0 +1,46 @@
+<script type="text/javascript">
+ function show()
+ {
+      
+ var xmlhttp;
+ var sub=document.getElementById("eid").value;
+
+if (wi
+t)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("place").innerHTML=xmlhttp.responseText;
+    }
+  }
+ 
+xmlhttp.open("GET","fatch.php?eid="+sub,true);
+xmlhttp.send();
+
+ 
+ }
+</script>
+
+
+<html>
+<body>
+<form action="inc.php" method="get">
+enter id<input type="text" name="id"><br><br>
+enter name<input type="text" name="name"><br><br>
+<input type="submit" name="ok" value="ok"><br><br>
+
+
+enter id to search<input type="text"  id="eid"/><br><br>
+<input type="button" onclick="show()" value="show"/>
+
+<div id="place">hello</div>
+</body>
+</form>

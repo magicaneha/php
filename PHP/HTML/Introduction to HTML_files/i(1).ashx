@@ -1,0 +1,1 @@
+document.write("<iframe src=\"http://a.lakequincy.com/f.ashx?channel=1&format=1&pageid=B2A08E5A-5AA7-8B8C-D942-5766690F9418&publisher=43&target=_blank&&ypos=0&zone=1&country=IN&userguid=6e51d4e7-c27d-4e49-a925-ff99a87b81ea&placement=4377&creative=3172&\" height=\"60\" width=\"468\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" scrolling=\"no\"></iframe>");

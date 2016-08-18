@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.error
+{
+color:red;
+}
+</style>
+</head>
+<script src="jquery.js">
+</script>
+<script src="validate.js">
+</script>
+<script>
+
+$(document).ready(function(){
+  $("#commentForm").validate();
+  $("#name").validate();
+	
+});
+</script>
+<body>
+<form id="commentForm">
+Enter Name<input type="text" name="name" id="name" class="required"><br><br>
+Enter Name<input type="text" name="fname" id="fname" class="required"><br><br>
+Enter Name<input type="text" name="mname" id="mame" class="required"><br><br>
+Enter Name<input type="text" name="lname" id="lname" class="required">
+<input type="submit" name="submit" value="submit">
+</form>
+</body>
+</html>
